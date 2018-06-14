@@ -156,6 +156,9 @@ hr {
     display: inline-block;
 }
 
+article {
+    margin-bottom: 20px;
+}
 article p {
     line-height: 140%;
     margin: .5em 1em 0 1em;
@@ -175,11 +178,13 @@ article .image-align-right {
 article iframe {
     width: 100%;
     border: 1.5px solid black;
+    margin-bottom: 12px;
 }
 article .primary-source-image {
     display: block;
     max-width: 60%;
     margin: auto;
+    margin-bottom: 12px;
     border: 2px solid black;
 }
 article .poem-title {
